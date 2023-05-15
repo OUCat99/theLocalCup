@@ -1,0 +1,386 @@
+body, html {
+    background-color: white;
+    height: 100%;
+}
+
+.container-fluid {
+    background-color: white !important;
+}  
+
+.row {
+    padding: auto !important;
+}
+
+#hero-main {
+    background-color: #163731;
+    background-size: auto;
+}
+  
+/* Heading Styles */
+h1 {
+    font-size: 60px !important;
+    margin-left: 20px;
+    font-family: "lust-text", serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 5%;;
+    color:white;
+}
+
+h2 {
+    font-size: 32px !important;
+    margin-left: 0px;
+    font-family: "lust-text", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    text-align: left;
+}
+
+h3 {
+    font-size: 26px !important;
+    margin-left: 0px;
+    font-family: "lust-text", serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 1%;
+    text-align: left !important;
+    color: #1d0e06;
+}
+
+h4 {
+    font-size: 18px !important;
+    font-family: "lust-text", serif;
+    font-weight: 400;
+    font-style: bold italic;
+    margin-left: 0px;
+    padding-top: 0%;
+}
+
+h6 {
+    font-size: 14px;
+    margin-left: 0px;
+    font-family: "lust-text", serif;
+    font-weight: 400;
+    font-style: medium italic;
+    padding-top: 0%; 
+    align-items: 30px after;
+}
+  
+/* Text Styles */
+h5 {
+   font-size: 60px;
+   font-family: 'Open Sans', sans-serif;
+   padding-top: 0%;
+}
+  
+.subhead {
+   font-size: 36px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+p {
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+   color: #1d0e06;
+}
+
+#taglines {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+#testimonial {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#card-header {
+  background-color: #241207;
+  height: 20px;
+}
+
+.card-footer {
+  background-color: #241207;
+}
+
+#ctaCard {
+  background-color: #163731;
+}
+
+#logoBlock {
+  background-image: url(../images/logoSquare.jpg) repeat-x;
+  max-height: auto;
+  max-width: 60px;
+  
+}
+
+/* navbar CSS */
+.nav-background {
+    background-color: #163731 !important;
+}
+
+.footer-background {
+    background-color: #163731 !important;
+}
+
+.nav-link {
+    color: white !important;
+    padding-right: 40px !important;
+}
+
+  /* Hero Section */
+.carousel-item {
+  max-height: 500px;
+}
+
+.coffees {
+  max-width: auto;
+  max-height: 300px !important;
+}
+
+.hero-main {
+  background-color: #163731;
+}
+  
+#appScreens {
+  max-width: 250px;
+  max-height: 250px;
+  align-items: center;
+  border-radius: 5%;
+}
+
+#shops {
+  max-width: 250px;
+  max-height: 250px;
+  align-items: center;
+}
+
+#welcome {
+  background-image: url("../images/bean-hero.jpeg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#CTA {
+  background-image: url("../images/bean-cta-2.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: top;
+}
+
+#logo {
+  border-radius: 50%;
+  background-color: #163731;
+  margin-top: 45px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  height: auto;
+  width: auto;
+  max-width: 250px;
+  height: 250px;
+  align-content: center !important;
+  justify-content: center !;
+}
+
+#appLogo {
+  border-radius: 50%;
+  background-color: #163731;
+  
+  height: auto;
+  width: auto;
+  max-width: 250px;
+  height: 250px;
+  align-content: center !important;
+  justify-content: center !important;
+}
+  
+#quote {
+  font-size: 56px;
+  margin-left: 0px;
+  font-family: "lust-text", serif;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 10%;
+  color:white;    
+  height: auto;
+  width: auto;
+  align-content: center;
+  justify-content: left;
+}
+  
+.envelopeemail-icon {
+   height: 30px;
+  width: auto;
+}
+  
+.grid-item-icons {
+   margin-left: 100px;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  justify-items: center;
+}
+  
+/* NavBar */
+nav {
+  height: 75px;
+  width: 100%;
+}
+
+#white-logo {
+  padding-left: 20px;
+  border-radius: 5%;
+  height: 60px;
+  width: auto;
+}
+
+.inline-block {
+  display: inline-block;
+  padding: 0px;
+}
+
+.block_element {
+  float: right;
+  margin-top: 0px;
+}
+  
+/* unvisited link */
+a:link {
+ color: black;
+}
+  
+/* visited link */
+a:visited {
+ color: black;
+}
+  
+/* mouse over link */
+a:hover {
+ color: #C8D9E3;
+}
+  
+/* selected link */
+a:active {
+  color: #758A96;
+}
+  
+/* buttons */
+
+.btn-lg {
+  color: #163731 !important;
+  background-color: white !important;
+  border-color: white !important;
+}
+
+.btn-sm {
+  color: white !important;
+  background-color: #163731 !important;
+  border-color: #163731 !important;
+}
+
+.btn-primary:hover {
+  color: #163731;
+  background-color: #EEE5E3;
+  border-color: white;
+}
+
+.row-cta {
+  background-color: #163731 !important;
+}
+
+#appHeader {
+  background-color: #163731 !important;
+}  
+
+.#card-title {
+  font-size: 28px !important;
+  margin-left: 0px;
+  font-family: "lust-text", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  text-align: left;
+}
+  
+.card {
+  margin: auto;
+}
+  
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+  
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: #C8D9E3;
+    clear: both;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,0.6);
+}
+
+  /* Style the list */
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color:white;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #AFA0A0;
+    text-decoration: underline;
+  }
+  
+ 
+   /* Extra small devices (phones, 600px and down) */
+   @media only screen and (max-width: 600px) {...}
+  
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+   @media only screen and (min-width: 600px) {...}
+   
+   /* Medium devices (landscape tablets, 768px and up) */
+   @media only screen and (min-width: 768px) {...}
+   
+   /* Large devices (laptops/desktops, 992px and up) */
+   @media only screen and (min-width: 992px) {...}
+   
+   /* Extra large devices (large laptops and desktops, 1200px and up) */
+   @media only screen and (min-width: 1200px) {...} 
+  
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
